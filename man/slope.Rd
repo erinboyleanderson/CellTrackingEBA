@@ -8,8 +8,7 @@ slope(somites)
 }
 \arguments{
 \item{somites}{Dataframe containing the boundary information. must include the following column names: Embryo, X, Y, boundary. Embryo is the number of the embryo, Boundary is the somite boundary, must be in the form 0-1, 1-2, etc where the numbers represent the somites that are being bound (ie 0-1 is the boundary between somite 0 and somite 1) ALSO MUST INCLUDE minimally boundary 0-1 and 5-6!
-don't think I need to export because its all internal
- slope()}
+don't think I need to export because its all internal}
 }
 \description{
 This function calculates the slope of the embryo based on the somite/LPM boundaries in order to appropriately rotate the embryo.

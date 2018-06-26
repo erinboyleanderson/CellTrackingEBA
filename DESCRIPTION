@@ -1,7 +1,7 @@
 Package: CellTrackingEBA
 Type: Package
 Title: Cell tracking calculations
-Version: 0.1.0
+Version: 0.1.1
 Author: Erin Boyle Anderson
 Maintainer: Erin Boyle Anderson <erinboyleanderson@gmail.com>
 Description: This is for cell tracking and registration of cells, primarily in the limb field of zebrafish. 

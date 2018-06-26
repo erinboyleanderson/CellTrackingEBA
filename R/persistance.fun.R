@@ -4,7 +4,7 @@
 #' @param df dataframe
 #' @param time final time point to calculate (frame)
 #' @export
-#' persistance.fun()
+
 
 
 persistance.fun<-function(df,time){

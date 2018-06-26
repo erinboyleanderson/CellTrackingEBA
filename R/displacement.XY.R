@@ -4,7 +4,7 @@
 #'
 #' @param df dataframe of  X and Y values over Time
 #' @export
-#' displacement.XY()
+
 displacement.XY<-function(df){
   b<-dplyr::filter(df,Time==1)
   a<-df%>%

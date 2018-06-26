@@ -5,7 +5,7 @@
 #' @param rotate.somitesDF output from rotate.somites
 #' @param bros number of embryos in df
 #' @export
-#' label.somites()
+
 label.somites<-function(rotatedDF,rotated.somitesDF,bros){
   rotatedDF<-rotatedDF%>%
     select(Embryo, Time, Track, Xr, Yr)%>% # select the subset that I want to use

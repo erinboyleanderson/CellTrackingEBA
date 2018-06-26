@@ -4,7 +4,7 @@
 #' @param df cell tracking dataframe
 #' @param time final frame that you want to track
 #' @export
-#' speedfun()
+
 
 speedfun<-function(df,time){
   e<-data.frame() #make the dataframe to fill out

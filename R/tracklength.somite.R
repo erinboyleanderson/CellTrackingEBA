@@ -3,7 +3,7 @@
 #' This summarizes the tracklength by somite
 #' @param df dataframe that is the output of persitance.fun
 #' @export
-#' tracklength.somite()
+
 
 
 tracklength.somite<-function(df){ #sometimes this still throws NAs but whatever

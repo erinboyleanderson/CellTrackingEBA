@@ -5,7 +5,7 @@
 #'@param bros  number of embryos in the dataframe
 #'@param side  dataframe consisting of the number of the embryo, the side (L vs R) and a multiplier (-1 or 1) based on if the embryo is on the L or R side
 #'@export
-#'rotate.somites()
+
 rotate.somites<-function(somiteDF,bros,side){
   slopeDF<-slope(somiteDF) #calculate slope
   side<-arrange(side,Embryo)#make sure that side is ordered by embryo

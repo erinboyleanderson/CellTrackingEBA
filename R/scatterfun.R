@@ -3,7 +3,7 @@
 #' This function calulcates scatter, which is one measure of how far apart embryos are over a time series. IT is essentially sd[t=n]/sd[t=1]
 #' @param df time series dataframe
 #' @export
-#' scatterfun()
+
 
 
 scatterfun<-function(df){# would it be different if I grouped by embryo as well?
