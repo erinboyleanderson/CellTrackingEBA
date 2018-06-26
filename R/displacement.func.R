@@ -2,6 +2,7 @@
 #'
 #' This function calculates displacement over time. It specifically only calculates AP and ML displacement separately. For displacement in 2 dimensions, used displacement.XY
 #' @param df time series tracking dataframe
+#' @export
 #' displacement.func()
 
 displacement.func<-function(df){

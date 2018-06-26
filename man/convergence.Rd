@@ -11,8 +11,7 @@ convergence(dataframe, Asom = 1, Psom = 4)
 
 \item{Asom}{Anterior somite group that you want to measure convergence for. Default value is 1}
 
-\item{Psom}{Posterior somite group that you want to measure convergence for. Dfault value is 4
-convergence()}
+\item{Psom}{Posterior somite group that you want to measure convergence for. Dfault value is 4}
 }
 \description{
 This function gives a value to detect convergence over a given time series. It takes the average AP position of cells next to one somite and compares the distance to the average AP positiion of cells next to anouther somite group. Default values are for somites 1 and 4, as they mark the extent of the limb field in zebrafish.

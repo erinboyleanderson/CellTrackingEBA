@@ -4,6 +4,7 @@
 #' @param rotatedDF output from rotate
 #' @param rotate.somitesDF output from rotate.somites
 #' @param bros number of embryos in df
+#' @export
 #' label.somites()
 label.somites<-function(rotatedDF,rotated.somitesDF,bros){
   rotatedDF<-rotatedDF%>%

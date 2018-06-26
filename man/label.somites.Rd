@@ -9,8 +9,7 @@ label.somites(rotatedDF, rotated.somitesDF, bros)
 \arguments{
 \item{rotatedDF}{output from rotate}
 
-\item{bros}{number of embryos in df
-label.somites()}
+\item{bros}{number of embryos in df}
 
 \item{rotate.somitesDF}{output from rotate.somites}
 }

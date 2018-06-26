@@ -7,8 +7,7 @@
 scatterfun(df)
 }
 \arguments{
-\item{df}{time series dataframe
-scatterfun()}
+\item{df}{time series dataframe}
 }
 \description{
 This function calulcates scatter, which is one measure of how far apart embryos are over a time series. IT is essentially sd[t=n]/sd[t=1]

@@ -11,8 +11,7 @@ rotate.somites(somiteDF, bros, side)
 
 \item{bros}{number of embryos in the dataframe}
 
-\item{side}{dataframe consisting of the number of the embryo, the side (L vs R) and a multiplier (-1 or 1) based on if the embryo is on the L or R side
-rotate.somites()}
+\item{side}{dataframe consisting of the number of the embryo, the side (L vs R) and a multiplier (-1 or 1) based on if the embryo is on the L or R side}
 }
 \description{
 This function rotates the somites so they are aligned correctly. This is important for labelling the cells with the somite identity later

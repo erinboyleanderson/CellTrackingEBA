@@ -9,8 +9,7 @@ speedfun(df, time)
 \arguments{
 \item{df}{cell tracking dataframe}
 
-\item{time}{final frame that you want to track
-speedfun()}
+\item{time}{final frame that you want to track}
 }
 \description{
 This function calculates the speed of the cells between each time point

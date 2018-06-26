@@ -2,6 +2,7 @@
 #'
 #' This function calulcates scatter, which is one measure of how far apart embryos are over a time series. IT is essentially sd[t=n]/sd[t=1]
 #' @param df time series dataframe
+#' @export
 #' scatterfun()
 
 

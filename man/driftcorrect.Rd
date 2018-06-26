@@ -11,8 +11,7 @@ driftcorrect(driftDF, rawDF, bros)
 
 \item{rawDF}{Raw dataframe}
 
-\item{bros}{Number of bros in your dataframe
-driftcorrect}
+\item{bros}{Number of bros in your dataframe}
 }
 \description{
 This function will drift correct the raw dataframe of X and Y coordinates collected from cell tracking. Important: both drift and raw dataframe must contain the following columns with the exact same column names: Embryo, Time, X, Y

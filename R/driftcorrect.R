@@ -4,7 +4,8 @@
 #' @param driftDF Your dataframe for drift correction (i.e midline nuclei)
 #' @param rawDF Raw dataframe
 #' @param bros Number of bros in your dataframe
-#' driftcorrect
+#' @export
+#' driftcorrect()
 
 
 

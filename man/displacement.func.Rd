@@ -7,8 +7,7 @@
 displacement.func(df)
 }
 \arguments{
-\item{df}{time series tracking dataframe
-displacement.func()}
+\item{df}{time series tracking dataframe}
 }
 \description{
 This function calculates displacement over time. It specifically only calculates AP and ML displacement separately. For displacement in 2 dimensions, used displacement.XY

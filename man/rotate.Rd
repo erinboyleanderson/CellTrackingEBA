@@ -13,9 +13,7 @@ rotate(drift.correctedDF, somiteDF, bros, side)
 
 \item{bros}{number of bros}
 
-\item{side}{dataframe consisting of the number of the embryo, the side (L vs R) and a multiplier (-1 or 1) based on if the embryo is on the L or R side
-
-rotate()}
+\item{side}{dataframe consisting of the number of the embryo, the side (L vs R) and a multiplier (-1 or 1) based on if the embryo is on the L or R side}
 }
 \description{
 This function takes the output of the drift corrected dataframe and rotates it so that the embryo is oriented with anterior to the left and the midline towards the top of the page. It will also mirror image the  right limb field so that it is superimposed over the left.

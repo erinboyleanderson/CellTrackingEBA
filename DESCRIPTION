@@ -6,6 +6,7 @@ Author: Erin Boyle Anderson
 Maintainer: Erin Boyle Anderson <erinboyleanderson@gmail.com>
 Description: This is for cell tracking and registration of cells, primarily in the limb field of zebrafish. 
     My primary purpose in creating this package is to make it easier for other lab members to use my codes, so many things are probably highly specific.
+Imports:dplyr, plyr
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true

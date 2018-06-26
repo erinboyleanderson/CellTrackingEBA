@@ -7,8 +7,7 @@
 displacement.XY(df)
 }
 \arguments{
-\item{df}{dataframe of  X and Y values over Time
-displacement.XY()}
+\item{df}{dataframe of  X and Y values over Time}
 }
 \description{
 This function determines 2D displacement

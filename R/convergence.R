@@ -4,6 +4,7 @@
 #' @param dataframe time series dataframe
 #' @param Asom Anterior somite group that you want to measure convergence for. Default value is 1
 #' @param Psom Posterior somite group that you want to measure convergence for. Dfault value is 4
+#' @export
 #' convergence()
 
 convergence<-function(dataframe, Asom=1,Psom=4){

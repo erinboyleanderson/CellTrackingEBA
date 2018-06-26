@@ -4,6 +4,7 @@
 #'@param somiteDF  Dataframe containing the boundary information. must include the following column names: Embryo, X, Y, boundary. Embryo is the number of the embryo, Boundary is the somite boundary, must be in the form 0-1, 1-2, etc where the numbers represent the somites that are being bound (ie 0-1 is the boundary between somite 0 and somite 1) ALSO MUST INCLUDE minimally boundary 0-1 and 5-6!
 #'@param bros  number of embryos in the dataframe
 #'@param side  dataframe consisting of the number of the embryo, the side (L vs R) and a multiplier (-1 or 1) based on if the embryo is on the L or R side
+#'@export
 #'rotate.somites()
 rotate.somites<-function(somiteDF,bros,side){
   slopeDF<-slope(somiteDF) #calculate slope

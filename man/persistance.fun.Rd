@@ -9,8 +9,7 @@ persistance.fun(df, time)
 \arguments{
 \item{df}{dataframe}
 
-\item{time}{final time point to calculate (frame)
-persistance.fun()}
+\item{time}{final time point to calculate (frame)}
 }
 \description{
 This function calculates persistance, which is essentially a ratio of displacement over track length. It also calculates total track length.

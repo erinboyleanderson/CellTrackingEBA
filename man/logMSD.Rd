@@ -7,8 +7,7 @@
 logMSD(df)
 }
 \arguments{
-\item{df}{dataframe
-logMSD()}
+\item{df}{dataframe}
 }
 \description{
 Calucaltes logMSD of a timeseries over time

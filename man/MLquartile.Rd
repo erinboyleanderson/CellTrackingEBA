@@ -7,8 +7,7 @@
 MLquartile(dataframe)
 }
 \arguments{
-\item{dataframe}{a dataframe of drift and rotation corrected tracking values (probably output of rotate or label.somites)
-MLquartile()}
+\item{dataframe}{a dataframe of drift and rotation corrected tracking values (probably output of rotate or label.somites)}
 }
 \description{
 This function divides the limb field into 4 ML quartiles based on position, with the most medial cells being labelled 4 and the most lateral cells labelled 1. It works on each embryo seperately.

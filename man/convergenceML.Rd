@@ -7,8 +7,7 @@
 convergenceML(dataframe)
 }
 \arguments{
-\item{dataframe}{Time series dataframe.
-convergenceML()}
+\item{dataframe}{Time series dataframe.}
 }
 \description{
 This function should tell us if the ML cells are converging

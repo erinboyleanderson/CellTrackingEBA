@@ -3,6 +3,7 @@
 #' This function calculates the speed of the cells between each time point
 #' @param df cell tracking dataframe
 #' @param time final frame that you want to track
+#' @export
 #' speedfun()
 
 speedfun<-function(df,time){

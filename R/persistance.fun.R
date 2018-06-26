@@ -3,6 +3,7 @@
 #' This function calculates persistance, which is essentially a ratio of displacement over track length. It also calculates total track length.
 #' @param df dataframe
 #' @param time final time point to calculate (frame)
+#' @export
 #' persistance.fun()
 
 

@@ -3,7 +3,7 @@
 #' This function should tell us if the ML cells are converging
 #'
 #'@param dataframe Time series dataframe.
-#'convergenceML()
+#'@export
 
 convergenceML<-function(dataframe){
   #dataframe of mean values of X and Y of cells starting at each somite level
