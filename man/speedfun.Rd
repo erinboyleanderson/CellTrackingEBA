@@ -4,12 +4,12 @@
 \alias{speedfun}
 \title{Speed function}
 \usage{
-speedfun(df, time)
+speedfun(df, interval = 8)
 }
 \arguments{
 \item{df}{cell tracking dataframe}
 
-\item{time}{final frame that you want to track}
+\item{interval}{time interval used, DEFAULT is 8 because my timepoints are all set to 8 minutes}
 }
 \description{
 This function calculates the speed of the cells between each time point

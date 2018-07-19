@@ -7,7 +7,7 @@
 tracklength.somite(df)
 }
 \arguments{
-\item{df}{dataframe that is the output of persitance.fun}
+\item{df}{dataframe that is the output of tracklength}
 }
 \description{
 This summarizes the tracklength by somite

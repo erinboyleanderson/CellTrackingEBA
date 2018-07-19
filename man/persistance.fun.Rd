@@ -4,13 +4,11 @@
 \alias{persistance.fun}
 \title{Function for calculating persistance}
 \usage{
-persistance.fun(df, time)
+persistance.fun(df)
 }
 \arguments{
 \item{df}{dataframe}
-
-\item{time}{final time point to calculate (frame)}
 }
 \description{
-This function calculates persistance, which is essentially a ratio of displacement over track length. It also calculates total track length.
+This function calculates persistance, which is essentially a ratio of displacement over track length. It also calculates total track length. It relies on tracklength to function
 }
