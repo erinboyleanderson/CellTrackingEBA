@@ -13,7 +13,7 @@ convergence<-function(dataframe, Asom=1,Psom=4){
   a<-dataframe%>%
     group_by(Time,Embryo,Somite)%>%
     mutate(mean(X),mean(Y))%>% #calculate mean
-    rename(meanX="mean(X)",meanY="mean(Y)")%>%
+    rename(meanX="mean(X)")%>%
     select(Embryo, Time, Somite, meanX,meanY)%>%
     unique
   a<-as.data.frame(a)
@@ -21,8 +21,7 @@ convergence<-function(dataframe, Asom=1,Psom=4){
   s1<-filter(a,Somite==Asom)
   s4<-filter(a,Somite==Psom)
   f<-s4%>%
-    mutate(cX=meanX-s1$meanX, #calculate the difference between somite 1 and 4
-           cY=meanY-s1$meanY)
+    mutate(cX=meanX-s1$meanX)
 
   #normalize by dividing by the distance at time 1
   g<-filter(f, Time==1)
@@ -31,10 +30,9 @@ convergence<-function(dataframe, Asom=1,Psom=4){
     h<-filter(g, Embryo==n)
     i<-filter(f,Embryo==n)
     j<-i%>%
-      mutate(convergenceX=cX/h$cX,
-             convergenceY=cY/h$cY)
+      mutate(convergenceX=cX/h$cX)
     k<-rbind(k,j)
   }
-  k<-select(k,Embryo,Time, convergenceX,convergenceY)
+  k<-select(k,Embryo,Time, convergenceX)
   return(k)
 }

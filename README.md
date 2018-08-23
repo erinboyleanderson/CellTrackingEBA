@@ -20,8 +20,7 @@ Run the dataframe through these functions, in the order listed. This will genera
 3. rotate.somites
 4. label.somites
 5. MLquartile
-
-*tracks.in.range (confirmation)
+6. tracks.in.range (confirmation)
 
 _STATISTICS AND CALCULATIONS_
 
