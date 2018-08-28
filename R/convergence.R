@@ -12,9 +12,8 @@ convergence<-function(dataframe, Asom=1,Psom=4){
   #dataframe of mean values of X and Y of cells starting at each somite level
   a<-dataframe%>%
     group_by(Time,Embryo,Somite)%>%
-    mutate(mean(X),mean(Y))%>% #calculate mean
-    rename(meanX="mean(X)")%>%
-    select(Embryo, Time, Somite, meanX,meanY)%>%
+    mutate(meanX=mean(X))%>% #calculate mean
+    select(Embryo, Time, Somite, meanX)%>%
     unique
   a<-as.data.frame(a)
   #value somite 1
