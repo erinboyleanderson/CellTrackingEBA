@@ -8,7 +8,7 @@
 
 scatterfun<-function(df){# would it be different if I grouped by embryo as well?
   a<-df%>%
-    group_by(Time)%>%
+    group_by(genotype,Time)%>%
     mutate(sd(X),sd(Y))%>%
     ungroup%>%
     select(Time, 'sd(X)','sd(Y)')%>%
@@ -16,6 +16,8 @@ scatterfun<-function(df){# would it be different if I grouped by embryo as well?
     rename(sdX="sd(X)",sdY="sd(Y)")
   a<-a%>%
     mutate(sdX/a$sdX[1],sdY/a$sdY[1])%>%
-    rename(scatterX=`sdX/a$sdX[1]`,scatterY=`sdY/a$sdY[1]`)
+    rename(scatterX=`sdX/a$sdX[1]`,scatterY=`sdY/a$sdY[1]`)%>%
+    mutate(seX=sd(scatterX)/sqrt(length(scatterX)),
+           seY=sd(scatterY)/sqrt(length(scatterY)))
   return(a)
 }
