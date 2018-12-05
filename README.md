@@ -26,7 +26,7 @@ Run the dataframe through these functions, in the order listed. This will genera
 
 I included the more useful or complicated ones that I have been using
 
-* convergence (conververgence, convergenceML, scatter) 
+* convergence (conververgence, convergenceML, scatter, scatter.somite) 
 * persistance (persistance.fun)
 * speed (speedfun) 
 * displacement (displacement.func, displacement.XY)
