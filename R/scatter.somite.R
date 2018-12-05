@@ -15,6 +15,7 @@ scatter.somite<-function(df, somite.start=1, somite.final=5){
       mutate(Somite=s)
     b<-rbind.data.frame(b,a)
   }
+  b<-ungroup(b)
   return(b)
 }
 
