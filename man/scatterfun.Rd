@@ -11,4 +11,7 @@ scatterfun(df)
 }
 \description{
 This function calulcates scatter, which is one measure of how far apart embryos are over a time series. IT is essentially sd[t=n]/sd[t=1]
+Note: scatterX is AP scatter, scatter Y is ML scatter PER EMBRYO
+mscatterX is the mean scatterX and mscatterY is the MEAN scatter Y over all embryos.
+seX is AP standard error, seY is ML standard error
 }
